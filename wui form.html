@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form controls</title>
+</head>
+<body>
+    <h1>Register here </h1>
+    <form action="tableOfanswers.html" method="GET" autocomplete="on">
+    <fieldset>
+        <legend>Contact info</legend>  
+        <table>
+        <tr><td>Enter Surname:</td><td><input type="text" name="surname" id="surname"></td></tr>
+        <tr><td>Enter Other names:</td><td><input type="text" name="name" id="name"></td></tr>
+        <tr><td>Enter age :</td><td><input type="number"  name="age" id="age" max="100" min="12" title="Enter age between 12 and 100" id="age"></td></tr>
+        <tr><td>Enter email:</td><td><input type="email" name="email" id="email"></td></tr>
+        <tr><td>Enter Password: </td><td><input type="password" name="password" id="password"></td></tr>
+        <tr><td>Confirm Password: </td><td><input type="password" name="password" id="password"></td></tr>
+        <tr><td> Enter phone number </td><td><input type="tel" name="tel" id="tel"></td></tr>
+        <tr><td>Select gender: </td><td><input type="radio" name="gender" id="gender" value="Male">Male <input type="radio" name="gender" id="gender" value="Female">Female</td></tr>
+        <tr><td>Select Status: </td><td><input type="radio" name="status" id="status" value="Married">Married <input type="radio" name="status" id="status" value="Single">Female<input type="radio" name="status" id="status" value="Rather not to say">Rather not to say</td></tr>
+    </table>    
+    </fieldset>
+    <fieldset>
+        <legend> Rate us scale of 10</legend> <br>
+        <input type="range" name="range" id="range" value="5" min="4" max="10"><br>
+        Where did you hear about us: <br>
+        <input type="checkbox" name="X" id="X"><label for="!X">X</label><br>
+        <input type="checkbox" value="off" name="Youtube" id="Youtube"><label for="!Youtube">Youtube</label><br>
+        <input type="checkbox" value="off" name="Facebook" id="Facebook"><label for="!Facebook">Facebook</label><br>
+        <input type="checkbox" value="off" name="Instagram" id="Instagram"><label for="!Instagram">Instagram</label><br>
+        <input type="checkbox" value="off" name="News" id="News"><label for="!News">News</label><br>
+        <input type="checkbox" value="off" name="Radio" id="Radio"><label for="!Radio">Radio</label><br>
+        <input type="checkbox" value="off" name="Other" id="Other"><label for="!Other">Other</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Tell us your opinion</legend>
+        <textarea name="rep" id="rep" cols="40" rows="4" placeholder="Type your opinion here..."></textarea>
+    </fieldset>
+    <fieldset>
+        <button type="submit" value="Submit">Submit your response</button>
+    </fieldset>
+    </form>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    *{
+        font-family: Poppins;
+    }
+</style>
+</body>
+</html>
